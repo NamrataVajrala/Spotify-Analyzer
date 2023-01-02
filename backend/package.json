@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ../backend server.js"
+  },
+  "authors": [
+    "Akshit Deshpande <asd6@illinois.edu>",
+    "Namrata Vajrala <vajrala3@illinois.edu>",
+    "Janani Rajadurai <jananir2@illinois.edu>",
+    "Ankitha Damisetty <ankithad@illinois.edu>",
+    "Tejal Athreya <tejala2@illinois.edu>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/jananir640/cs498rk-final.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.6.1",
+    "firebase-admin": "^10.0.0",
+    "mongoose": "^6.1.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,58 @@
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 600px;
+  height: 175px;
+}
+
+.login-body {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding: 10px;
+    /* background-color: #C6DEDD; */
+    /* background-color: #CCE4E3; */
+  }
+  .login-header{
+    text-align: center; 
+  }
+  
+  .login-form{
+    width: 50%;
+    /* margin: 0 auto; */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-submit {
+    align-items: center;
+    text-align: center;
+  }
+
+.login-header{
+    text-align: center;
+    padding:15px;
+    font-size: xx-large;
+    font-family: "Monaco" , monospace;
+    font-weight: bold;
+}
+
+.login-submit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Monaco" , monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.login-submit-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center
+}

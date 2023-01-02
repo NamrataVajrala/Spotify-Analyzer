@@ -1,0 +1,23 @@
+import React from 'react';
+import './songDisplay.css';
+
+class songDisplay extends React.Component {
+    constructor(props){
+        super(props);
+
+        this.state = {
+
+        }
+
+
+    }
+
+    render() {
+        console.log("hi");
+        return(
+            <h1>help</h1>
+        )
+    }
+}
+
+export default songDisplay;

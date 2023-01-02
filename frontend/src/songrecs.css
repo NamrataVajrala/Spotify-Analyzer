@@ -1,0 +1,35 @@
+.songrecs-header {
+    text-align: center;
+    padding:15px;
+    font-size: xx-large;
+    font-family: "Monaco" , monospace;
+    font-weight: bold;
+}
+
+.songrecs-description {
+    text-align: center;
+    padding:15px;
+    font-size: large;
+    font-family: "Monaco" , monospace;
+    font-weight: bold;   
+    color:rgb(92, 97, 97)
+}
+
+.songrecs-generate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Monaco" , monospace;
+    font-size: large;
+    font-weight: bold;
+    padding: 25px;
+    width: 25%;
+}
+
+.songrecs-button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
